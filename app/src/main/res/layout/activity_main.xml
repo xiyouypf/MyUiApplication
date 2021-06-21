@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_my_flow_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="流式布局" />
+
+    <Button
+        android:id="@+id/btn_my_simple_color_change_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="颜色渐变" />
+
+    <Button
+        android:id="@+id/btn_my_fish_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鱼的滑动" />
+
+    <Button
+        android:id="@+id/btn_my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView吸顶效果" />
+
+    <Button
+        android:id="@+id/btn_my_recycler_view_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecycleView回收复用" />
+
+
+</LinearLayout>

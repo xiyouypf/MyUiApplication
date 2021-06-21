@@ -1,0 +1,3 @@
+include ':myfragmentandviewpager'
+include ':app'
+rootProject.name = "MyUiApplication"
