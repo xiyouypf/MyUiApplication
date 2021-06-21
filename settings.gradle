@@ -1,3 +1,4 @@
+include ':myslidecard'
 include ':myfragmentandviewpager'
 include ':app'
 rootProject.name = "MyUiApplication"
