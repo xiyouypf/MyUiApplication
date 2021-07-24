@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.ypf.myfragmentandviewpager.fragment.DataCommunicationActivity;
-import com.ypf.myfragmentandviewpager.viewpagerandfragment.ViewPagerAndFragmentActivity;
+import com.ypf.myfragmentandviewpager.pagerviewandfragment.MyPagerViewFragmentActivity;
+import com.ypf.myfragmentandviewpager.viewpager2andfragment.ViewPagerAndFragmentActivity;
 import com.ypf.myfragmentandviewpager.wechatpage.WeChatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         viewPagerSimpleUsed.setOnClickListener(this::onClick);
         Button weChat = findViewById(R.id.we_chat);
         weChat.setOnClickListener(this::onClick);
+        Button myViewPager = findViewById(R.id.my_view_pager);
+        myViewPager.setOnClickListener(this::onClick);
     }
 
     @Override
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //微信左右滑动
         } else if (v.getId() == R.id.we_chat) {
             Intent intent = new Intent(MainActivity.this, WeChatActivity.class);
+            startActivity(intent);
+            //左右滑动
+        } else if (v.getId() == R.id.my_view_pager) {
+            Intent intent = new Intent(MainActivity.this, MyPagerViewFragmentActivity.class);
             startActivity(intent);
         }
     }

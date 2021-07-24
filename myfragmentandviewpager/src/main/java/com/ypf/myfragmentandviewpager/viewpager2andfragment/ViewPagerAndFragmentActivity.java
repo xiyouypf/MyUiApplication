@@ -1,4 +1,4 @@
-package com.ypf.myfragmentandviewpager.viewpagerandfragment;
+package com.ypf.myfragmentandviewpager.viewpager2andfragment;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;

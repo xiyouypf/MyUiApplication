@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyUiApplication">
-        <activity android:name=".wechatpage.WeChatActivity"/>
-        <activity android:name=".viewpagerandfragment.ViewPagerAndFragmentActivity" />
+        <activity android:name=".pagerviewandfragment.MyPagerViewFragmentActivity"></activity>
+        <activity android:name=".wechatpage.WeChatActivity" />
+        <activity android:name=".viewpager2andfragment.ViewPagerAndFragmentActivity" />
         <activity android:name=".fragment.DataCommunicationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,3 +1,4 @@
+include ':mymaterialdesign'
 include ':myslidecard'
 include ':myfragmentandviewpager'
 include ':app'

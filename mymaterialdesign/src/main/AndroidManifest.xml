@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ypf.mymaterialdesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialAppTheme">
+        <activity android:name=".md2.nestedscrollview.NestedScrollViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".md2.tradition.NestedTraditionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".md2.nestedscrolling.NestedScrolling1Activity" />
+        <activity android:name=".navigation.CloudMusicActivity" />
+        <activity android:name=".floatingactionbutton.FloatActionButtonActivity" />
+        <activity
+            android:name=".toolbar.ToolbarActivity"
+            android:theme="@style/ToolBarAppTheme">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".viewpager2.ViewPager2Activity"
+            android:theme="@style/ToolBarAppTheme"></activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

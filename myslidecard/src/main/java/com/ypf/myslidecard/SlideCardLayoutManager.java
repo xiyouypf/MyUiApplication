@@ -58,7 +58,5 @@ public class SlideCardLayoutManager extends RecyclerView.LayoutManager {
                 }
             }
         }
-
-
     }
 }

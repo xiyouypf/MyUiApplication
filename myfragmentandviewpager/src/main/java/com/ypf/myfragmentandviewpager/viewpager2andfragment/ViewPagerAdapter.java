@@ -1,4 +1,4 @@
-package com.ypf.myfragmentandviewpager.viewpagerandfragment;
+package com.ypf.myfragmentandviewpager.viewpager2andfragment;
 
 import android.view.LayoutInflater;
 import android.view.View;

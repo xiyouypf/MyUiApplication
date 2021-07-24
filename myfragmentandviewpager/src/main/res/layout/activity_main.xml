@@ -33,5 +33,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/we_chat"
         android:text="微信左右滑动" />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_view_pager"
+        android:text="ViewPager左右滑动" />
 </LinearLayout>
